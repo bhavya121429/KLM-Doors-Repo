@@ -4,7 +4,7 @@ for o in current Module do
 {
     string f1 = i""
     f1= "459D_MM-"f1
-    o."HB_Customer_ObjectID"= f1    
+    o."HB_Customer_ObjectID"= f1 // depends on the definition of the attribute   
     i++
     
 }
