@@ -1,6 +1,5 @@
 #include <stadio.h>
-int a,b,c,d;
+int a,b,c, d;
 add c =a+b;
-sub c = a-b
-mul d = a*b
+sub c = a-b;
 
