@@ -1,5 +1,12 @@
 #include <stadio.h>
 int a,b,c, d;
 add c =a+b;
+<<<<<<< HEAD
 sub c = a-b;
+=======
+sub c = a-b
+mul d = a*b
+Dic e = a/b;
+f = a and b
+>>>>>>> main
 
