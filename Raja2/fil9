@@ -1,0 +1,4 @@
+#include <stadio.h>
+int a,b,c;
+add c =a+b;
+
