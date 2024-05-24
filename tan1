@@ -1,0 +1,10 @@
+git tag
+git tag T-1.0
+git show T-1.0
+
+git tag T1.0 cid    // commit id 
+git checkout T1.0
+
+git push origin T1.0
+git push --tags (all tag)
+
