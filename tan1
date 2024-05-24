@@ -12,4 +12,11 @@ git push origin -d T1.0 (delete on central repo)
 
 git add file1  (workspace to staging)
 git reset head file1  (staging to workspace)
+git commit -m "sample commit" (staging to local)
+git reset --soft cid (local to staging n-1)
 
+git reset --mixed cid  (local to workspace)
+
+git reset --hard cid  (delete commit and committed files)
+
+.gitignore  // to ignore the files
