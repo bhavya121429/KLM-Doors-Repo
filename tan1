@@ -7,4 +7,9 @@ git checkout T1.0
 
 git push origin T1.0
 git push --tags (all tag)
+git tag -d T1.0  (delete on local)
+git push origin -d T1.0 (delete on central repo)
+
+git add file1  (workspace to staging)
+git reset head file1  (staging to workspace)
 
