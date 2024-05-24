@@ -1,0 +1,22 @@
+git tag
+git tag T-1.0
+git show T-1.0
+
+git tag T1.0 cid    // commit id 
+git checkout T1.0
+
+git push origin T1.0
+git push --tags (all tag)
+git tag -d T1.0  (delete on local)
+git push origin -d T1.0 (delete on central repo)
+
+git add file1  (workspace to staging)
+git reset head file1  (staging to workspace)
+git commit -m "sample commit" (staging to local)
+git reset --soft cid (local to staging n-1)
+
+git reset --mixed cid  (local to workspace)
+
+git reset --hard cid  (delete commit and committed files)
+
+.gitignore  // to ignore the files
