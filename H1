@@ -1,0 +1,14 @@
+stash
+=====
+git stash save "stash1"
+git stash list
+
+git stash show stash@{x}
+git stash show -p stash@{x}git 
+
+pop - cut
+==========
+git stash pop
+git stash pop stash@{x}
+
+
